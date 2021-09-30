@@ -30,6 +30,8 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/jason" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/decimal" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/file_system" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ex_machina" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ex_machina" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -43,5 +45,10 @@
     <orderEntry type="library" name="Elixir 1.12.3" level="application" />
     <orderEntry type="library" name="Elixir 1.12.3" level="application" />
     <orderEntry type="library" name="decimal" level="project" />
+    <orderEntry type="library" name="ex_machina" level="project" />
+    <orderEntry type="library" name="earmark" level="project" />
+    <orderEntry type="library" name="ecto" level="project" />
+    <orderEntry type="library" name="ecto_sql" level="project" />
+    <orderEntry type="library" name="postgrex" level="project" />
   </component>
 </module>

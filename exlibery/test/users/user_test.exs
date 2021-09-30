@@ -1,9 +1,11 @@
 defmodule Exlibery.Users.UserTest do
   use ExUnit.Case
   alias Exlibery.Users.User
+  import Exlibery.Factory
 
   describe "build/5" do
     test "when all params are valid, returns the user" do
+      user = build(:user)
       response =
         User.build(
           "Rua das bananeiras, 35",
@@ -13,9 +15,9 @@ defmodule Exlibery.Users.UserTest do
           27
         )
 
-      expected_response = {:ok, response}
+      expected_response = {:ok, build(:user)}
 
-      assert response == response
+      assert response == expected_response
     end
 
     test "when there are invalid params, returns an error" do

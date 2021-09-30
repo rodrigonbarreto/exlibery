@@ -24,6 +24,9 @@ https://github.com/rrrene/credo
 
  * in case `credo.exs` does not exist, run `mix credo gen.config` 
 
+
+# Ex Machina, it's like facotryBot
+* https://github.com/thoughtbot/ex_machina
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/exlibery](https://hexdocs.pm/exlibery).
