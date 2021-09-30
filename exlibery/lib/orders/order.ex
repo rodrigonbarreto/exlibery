@@ -6,7 +6,7 @@ defmodule Exlibery.Orders.Order do
   alias Exlibery.Users.User
   alias Exlibery.Orders.Item
 
-  def build(%User{cpf: cpf, address: address}, [%Item{}| _items] = items)do
+  def build(%User{cpf: cpf, address: address}, [%Item{}| _items] = items) do
     order = %__MODULE__{
       user_cpf: cpf,
       delivery_address: address,
