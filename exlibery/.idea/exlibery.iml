@@ -34,5 +34,7 @@
     <orderEntry type="library" name="ex_doc" level="project" />
     <orderEntry type="library" name="excoveralls" level="project" />
     <orderEntry type="library" name="inch_ex" level="project" />
+    <orderEntry type="library" name="Elixir 1.12.3" level="application" />
+    <orderEntry type="library" name="Elixir 1.12.3" level="application" />
   </component>
 </module>
