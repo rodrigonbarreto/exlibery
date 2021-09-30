@@ -24,6 +24,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/credo" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/file_system" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/bunt" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/decimal" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -36,5 +37,6 @@
     <orderEntry type="library" name="inch_ex" level="project" />
     <orderEntry type="library" name="Elixir 1.12.3" level="application" />
     <orderEntry type="library" name="Elixir 1.12.3" level="application" />
+    <orderEntry type="library" name="decimal" level="project" />
   </component>
 </module>

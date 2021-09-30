@@ -14,7 +14,8 @@ def deps do
   ]
 end
 ```
-
+# run elixir console
+iex -S mix
 # Install packages
 mix deps.get
 
