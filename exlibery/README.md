@@ -15,6 +15,14 @@ def deps do
 end
 ```
 
+# Install packages
+mix deps.get
+
+# Credo
+https://github.com/rrrene/credo
+
+ * in case `credo.exs` does not exist, run `mix credo gen.config` 
+
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/exlibery](https://hexdocs.pm/exlibery).
