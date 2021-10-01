@@ -32,6 +32,7 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/file_system" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ex_machina" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ex_machina" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/elixir_uuid" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -50,5 +51,7 @@
     <orderEntry type="library" name="ecto" level="project" />
     <orderEntry type="library" name="ecto_sql" level="project" />
     <orderEntry type="library" name="postgrex" level="project" />
+    <orderEntry type="library" name="elixir_uuid" level="project" />
+    <orderEntry type="library" name="benchfella" level="project" />
   </component>
 </module>
